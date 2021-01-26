@@ -1,0 +1,15 @@
+{
+	"private": true,
+	"scripts": {
+		"setup": "echo `date`"
+	},
+	"devDependencies": {
+		"husky": "^4.3.8"
+	},
+	"dependencies": {},
+	"husky": {
+		"hooks": {
+			"post-merge": "npm run setup"
+		}
+	}
+}
