@@ -9,7 +9,8 @@
 	"dependencies": {},
 	"husky": {
 		"hooks": {
-			"post-merge": "npm run setup"
+			"post-merge": "npm run setup",
+			"pre-rebase": "npm run setup"
 		}
 	}
 }
